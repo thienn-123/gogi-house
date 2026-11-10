@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0f172b">
+  <title>Thực đơn GoGi House | Buffet và món lẻ</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="../css/restoran-theme.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top border-bottom border-secondary border-opacity-50 py-3 shadow">
+    <div class="container">
+      <a class="navbar-brand bg-white rounded-3 px-2 py-1 d-inline-flex align-items-center" href="index.html"><img src="../image/Logo.png" alt="GoGi House" class="img-fluid"></a>
+      <button class="navbar-toggler border-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Mở điều hướng"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-2">
+          <li class="nav-item"><a class="nav-link fw-semibold" href="index.html">Trang chủ</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold" href="about.html">Giới thiệu</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold" href="service.html">Dịch vụ</a></li>
+          <li class="nav-item"><a class="nav-link active fw-semibold text-warning" href="menu.html" aria-current="page">Thực đơn</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold" href="booking.html">Đặt bàn</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold" href="members.html">Thành viên</a></li>
+        </ul>
+        <a href="booking.html" class="btn btn-warning btn-sm fw-bold px-3">Đặt bàn ngay</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="theme-page-hero menu-page-hero"><div class="container"><nav aria-label="Điều hướng trang"><a href="index.html">Trang chủ</a><span>/</span><span>Thực đơn</span></nav><p class="theme-kicker">Hương vị Hàn Quốc</p><h1>Thực đơn GoGi House</h1><p>Khám phá buffet và những món ngon gọi lẻ.</p></div></header>
+  <main class="menu-redesign flex-grow-1">
+    <section class="menu-redesign-section" aria-labelledby="menuPageTitle">
+      <div class="container menu-redesign-container">
+        <header class="menu-redesign-heading">
+          <p class="theme-kicker">GOGI HOUSE</p>
+          <h1 id="menuPageTitle">Món ăn được yêu thích</h1>
+          <p>Chọn buffet hoặc gọi món lẻ cho buổi hẹn của bạn.</p>
+        </header>
+
+        <div class="menu-category-tabs" role="tablist" aria-label="Danh mục thực đơn">
+          <button class="menu-category-tab active" id="buffet-tab" type="button" role="tab" aria-controls="buffet-panel" aria-selected="true" data-menu-panel="buffet-panel"><i class="bi bi-fire" aria-hidden="true"></i><span>Buffet</span></button>
+          <button class="menu-category-tab" id="ala-carte-tab" type="button" role="tab" aria-controls="ala-carte-panel" aria-selected="false" data-menu-panel="ala-carte-panel"><i class="bi bi-egg-fried" aria-hidden="true"></i><span>Món lẻ</span></button>
+        </div>
+
+        <section class="menu-redesign-panel" id="buffet-panel" role="tabpanel" aria-labelledby="buffet-tab">
+          <div class="menu-items-grid">
+            <article class="menu-item">
+              <img class="menu-item-photo" src="../image/Buffet01.jpg" alt="Buffet Xèo Xèo">
+              <div class="menu-item-details"><div class="menu-item-title"><h2>Buffet Xèo Xèo</h2><strong>369.000đ</strong></div><p class="menu-item-vat">(Giá chưa bao gồm VAT)</p><p>Thưởng thức thịt nướng và các món ăn kèm mang phong vị Hàn Quốc.</p></div>
+            </article>
+            <article class="menu-item">
+              <img class="menu-item-photo" src="../image/Buffet02.jpg" alt="Buffet Wagyu">
+              <div class="menu-item-details"><div class="menu-item-title"><h2>Buffet Wagyu</h2><strong>469.000đ</strong></div><p class="menu-item-vat">(Giá chưa bao gồm VAT)</p><p>Gói buffet với các lựa chọn thịt bò cao cấp cho bàn tiệc.</p></div>
+            </article>
+            <article class="menu-item">
+              <img class="menu-item-photo" src="../image/Buffet03.jpg" alt="Buffet Wagyu">
+              <div class="menu-item-details"><div class="menu-item-title"><h2>Buffet Wagyu</h2><strong>469.000đ</strong></div><p class="menu-item-vat">(Giá chưa bao gồm VAT)</p><p>Gói buffet với các lựa chọn thịt bò cao cấp cho bàn tiệc.</p></div>
+            </article>
+            <article class="menu-item">
+              <img class="menu-item-photo" src="../image/Buffet04.jpg" alt="Buffet Wagyu">
+              <div class="menu-item-details"><div class="menu-item-title"><h2>Buffet Wagyu</h2><strong>469.000đ</strong></div><p class="menu-item-vat">(Giá chưa bao gồm VAT)</p><p>Gói buffet với các lựa chọn thịt bò cao cấp cho bàn tiệc.</p></div>
+            </article>
+          </div>
+          <p class="menu-redesign-cta"><a href="booking.html" class="btn btn-warning">Đặt bàn thưởng thức buffet</a></p>
+        </section>
+
+        <section class="menu-redesign-panel" id="ala-carte-panel" role="tabpanel" aria-labelledby="ala-carte-tab" hidden>
+          <div class="menu-items-grid">
+            <article class="menu-item"><img class="menu-item-photo" src="../image/MonLe01.jpg" alt="Dẻ Sườn Hoàng Đế Sốt Galbi"><div class="menu-item-details"><div class="menu-item-title"><h2>Dẻ Sườn Hoàng Đế Sốt Galbi</h2><strong>189.000đ</strong></div><p>Dẻ sườn bò Mỹ rút xương, ướp sốt Galbi lê Hàn Quốc ngọt dịu.</p></div></article>
+            <article class="menu-item"><img class="menu-item-photo" src="../image/MonLe02.jpg" alt="Thăn Ngoại Bò Wagyu"><div class="menu-item-details"><div class="menu-item-title"><h2>Thăn Ngoại Bò Wagyu Úc</h2><strong>269.000đ</strong></div><p>Thăn bò vân mỡ mềm, cắt dày và dùng ngon nhất khi nướng tái vừa.</p></div></article>
+            <article class="menu-item"><img class="menu-item-photo" src="../image/MonLe03.jpg" alt="Ba Chỉ Bò Mỹ"><div class="menu-item-details"><div class="menu-item-title"><h2>Ba Chỉ Bò Mỹ Sốt Mật Ong</h2><strong>139.000đ</strong></div><p>Ba chỉ bò Mỹ thái mỏng, đậm vị sốt mật ong.</p></div></article>
+            <article class="menu-item"><img class="menu-item-photo" src="../image/MonLe04.jpg" alt="Sườn Non Bò Mỹ"><div class="menu-item-details"><div class="menu-item-title"><h2>Sườn Non Bò Mỹ LA</h2><strong>239.000đ</strong></div><p>Sườn bò Mỹ nướng thơm, dùng cùng các loại sốt chấm.</p></div></article>
+            <article class="menu-item"><img class="menu-item-photo" src="../image/MonLe05.jpg" alt="Nạc Vai Heo Iberico"><div class="menu-item-details"><div class="menu-item-title"><h2>Nạc Vai Heo Iberico</h2><strong>219.000đ</strong></div><p>Thịt heo Iberico nướng muối, mềm thơm và đậm vị tự nhiên.</p></div></article>
+            <article class="menu-item"><img class="menu-item-photo" src="../image/MonLe06.jpg" alt="Tôm Sú Nướng Bơ Tỏi"><div class="menu-item-details"><div class="menu-item-title"><h2>Tôm Sú Nướng Bơ Tỏi</h2><strong>165.000đ</strong></div><p>Tôm sú nướng thơm bơ tỏi, phục vụ nóng tại bàn.</p></div></article>
+            <article class="menu-item"><img class="menu-item-photo" src="../image/MonLe07.jpg" alt="Cơm Trộn Bibimbap"><div class="menu-item-details"><div class="menu-item-title"><h2>Cơm Trộn Thổ Đá Bibimbap</h2><strong>99.000đ</strong></div><p>Cơm trộn nóng với rau củ, thịt bò và sốt Bibimbap.</p></div></article>
+            <article class="menu-item"><img class="menu-item-photo" src="../image/MonLe08.jpg" alt="Bánh Gạo Cay Tokbokki"><div class="menu-item-details"><div class="menu-item-title"><h2>Bánh Gạo Cay Tokbokki</h2><strong>79.000đ</strong></div><p>Bánh gạo Hàn Quốc dai mềm, phủ sốt cay và phô mai.</p></div></article>
+          </div>
+          <p class="menu-redesign-cta"><a href="booking.html" class="btn btn-warning">Đặt bàn gọi món</a></p>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-black text-light pt-5 pb-4 border-top border-secondary border-opacity-50 mt-auto"><div class="container">
+    <div class="row g-4 pb-4 border-bottom border-secondary border-opacity-25">
+      <div class="col-lg-5"><a href="index.html" class="bg-white rounded-3 px-2 py-1 d-inline-block mb-3"><img src="../image/Logo.png" alt="GoGi House" class="img-fluid"></a><p class="small text-secondary mb-0">GoGi House - thương hiệu thịt nướng Hàn Quốc thuộc Golden Gate Restaurant Group.</p></div>
+      <div class="col-6 col-lg-3"><h2 class="h6 text-warning fw-bold text-uppercase mb-3">Khám phá</h2><ul class="list-unstyled d-grid gap-2 small"><li><a href="index.html" class="link-light">Trang chủ</a></li><li><a href="about.html" class="link-light">Giới thiệu</a></li><li><a href="service.html" class="link-light">Dịch vụ</a></li><li><a href="menu.html" class="link-light">Thực đơn</a></li><li><a href="booking.html" class="link-light">Đặt bàn</a></li></ul></div>
+      <div class="col-6 col-lg-4"><h2 class="h6 text-warning fw-bold text-uppercase mb-3">Liên hệ</h2><p class="small text-secondary">Tổng đài: <a class="link-light" href="tel:19006622">1900 6622</a></p><a href="booking.html" class="btn btn-warning btn-sm">Tìm nhà hàng</a></div>
+    </div><div class="pt-3 small text-secondary">© 2026 GoGi House. Golden Gate Restaurant Group.</div>
+  </div></footer>
+  <script src="../js/main.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <a class="floating-call" href="tel:19006622" aria-label="Gọi hotline GoGi House 1900 6622"><i class="bi bi-telephone-outbound-fill" aria-hidden="true"></i></a>
+</body>
+</html>
